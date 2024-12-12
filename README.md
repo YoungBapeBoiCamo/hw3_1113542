@@ -38,8 +38,30 @@ Vertex 5 is connected to vertex 2.
 
 
 Question 3:
+Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Depth First Traversal (DFS) starting from vertex 0, visiting vertices from left to right as per the adjacency list, and return a list containing the DFS traversal of the graph.
+Note: Do traverse in the same order as they are in the adjacency list.
 
+input : Enter the number of nodes: 5
+Enter neighbors of node 0 : 1 2
+Enter neighbors of node 1 : 0 3
+Enter neighbors of node 2 : 0 4
+Enter neighbors of node 3 : 1
+Enter neighbors of node 4 : 2
 
+ Output : DFS Traversal: [0, 1, 3, 2, 4]
+
+Question 4:
+Given a weighted, undirected, and connected graph with V vertices and E edges, your task is to find the sum of the weights of the edges in the Minimum Spanning Tree (MST) of the graph. The graph is represented by an adjacency list, where each element adj[i] is a vector containing vector of integers. Each vector represents an edge, with the first integer denoting the endpoint of the edge and the second integer denoting the weight of the edge.
+ input 
+V: 4
+E: 5
+
+ output
+0 1 10
+0 2 6
+0 3 5
+1 3 15
+2 3 4
 
 
 
